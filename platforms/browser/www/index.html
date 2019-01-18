@@ -21,7 +21,7 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- Your app title -->
-    <title>Release Notes Portable</title>
+    <title>Wiki Satchel</title>
 
     <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
         http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
@@ -85,14 +85,13 @@
                             <h2> Admin Interface </h2>
                             <h3><a href="admin_panel.html">SMHW Admin Panel</a></h3>
                             <br>
-                            <h2 style="color:lightgrey"> Pulse (Coming Soon) </h2>
-                            <p>Exciting new updates on their way...</p>
-                            <!-- <h3><a href="pulse_coming_soon.html"></h3> -->
-                            
+                    
                             <h1 style="color: olive">Extras</h1>
-                            <h2 style="color:darkblue">Login to Confluence</h2>
+                            <h3 style="color: purple">
+                                <a href="confluence_embed.html">Confluence Access</a>
+                            </h3>
                             <hr>
-                            <h3><a href="about.html">About v1.0</a></h3>
+                            <h3><a href="about.html">About V0.2</a></h3>
                         </div>
                     </div>
                 </div>
@@ -101,8 +100,16 @@
             <div class="toolbar">
                 <div class="toolbar-inner">
                     <!-- Toolbar links -->
-                    <a href="#" class="link">2018-12-07</a>
-                    <h4><a href= "#" class="link">Give Feedback</a></h4>
+                    <body>
+                    <a> 
+                            <script type="text/javascript">
+                                document.write ('<p><span id="date">', new Date().toLocaleString('en-GB'), '<\/span>.<\/p>')
+                                if (document.getElementById) onload = function () {
+                                    setInterval ("document.getElementById ('date').firstChild.data = new Date().toLocaleString('en-GB')", 1000)
+                                }
+                            </script>
+                    </a>
+                    <h4><a href="give_us_feedback.html">Feedback</a></h4>
                 </div>
             </div>
         </div>
