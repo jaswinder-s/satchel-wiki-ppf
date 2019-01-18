@@ -1,0 +1,71 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="back link">
+                    <i class="icon icon-back"></i>
+                    <span>Back</span>
+                </a>
+            </div>
+            <div class="center sliding"><h2>WEB 20181129</h2></div>
+            <div class="right">
+                <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="pages">
+        <div data-page="web20181129" class="page">
+            <div class="page-content">
+                <div class="content-block">
+                    <h2>Please see changes introduced for this release below</h2>
+                    <h2 style="color:dodgerblue"> Crowdfunding promo for parents, updated last activity logging, kudos and seating cleanup plus a new data permissions menu </h2>
+                    <hr>
+                            <h2>Data Permissions Menu (425)</h2>
+                            <p> A new data permissions page has been added which will now allow admins to see a list of scopes (data permissions) that their school has consented to along with those that they will still need to consent to. This page will also help show admins that any scopes that are pending are required and informs them of the type of data that will be required from them. 
+                            
+                            This page is only visible for XOD schools or Groupcall schools that have subscribed to at least one satchel app. The basic flow will redirect the admin to a Groupcall Manage page where they can follow through a wizard through to complete the consent process which will then allow us to start importing this data from their school systems. The page will also show a comparison of what the school has consented to, and what is remaining. </p>
+                            
+                            <h3>Summary </h3>
+                            <p>For a school to consent, they will need to enter their Groupcall credentials to complete this process
+                            If they wish to revoke consent, this will need to be done via Groupcall Manage
+                            
+                            To find the Data Permissions page ensure you're logged in as an Admin, then click on Admin > Settings > Data Permissions </p>
+                            
+                            <br>
+                            <h2>Promote crowdfunding to parents (527)</h2>
+                            <p> Added a new banner to promote our Crowdcube crowdfunding campaign to parents. This new banner is now visible on the main child selection screen and looks like this:
+                            
+                            This banner can be dismissed, and if dismissed, the native apps promotional banner will be shown - this can also be dismissed if desired. Clicking the 'Learn more' will take parents to the campaign page. </p>
+                            
+                            <br>
+                            <h2>Add crowdfunding banner to login page</h2>
+                            
+                            We've added a new banner to the login screen to promote the crowdfunding campaign. You'll see a new orange banner with a find out more link that will take users directly to the campaign page. This can also be dismissed if desired.
+                            
+                            <br>
+                            <h2>Remove the seating and kudos consent banners (503) </h2>
+                            
+                            Now that we have introduced the data permissions page, we have moved the existing seating and kudos consent 'modules' into the data permissions page to make the consent process clearer. See image for 'Consent' button. 
+                            
+                            <br>
+                            <h2> Multiple deletes / anonymise timeouts when a large amount of users are removed (370) </h2>
+                            
+                            <p> Improved background performance of delete and anonymisation when a large number of users are removed from the Admin > Manage Users page </p>
+                            
+                            <br>
+                            <h2>Update business logic for last_activity (439) </h2>
+                            
+                            Updates to the logic that allows the last_activity_at to be registered, and the introduction of a new column "last_user_activity_at" that triggers a timestamp based upon actual user interaction with the app.
+                            
+                            <br>
+                            <h2>Disable auto-switch to XoD (526) </h2>
+                            
+                            Disabled automatic switching to XoD for some schools that come through the consent process in order to prevent data issues
+                            
+                            <p><strong> 2018 | Internal Use Only</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
