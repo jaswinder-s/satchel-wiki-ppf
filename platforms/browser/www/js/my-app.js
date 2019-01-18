@@ -68,3 +68,13 @@ $$(document).on('pageInit', '.page[data-page="web20181101"]', function (e) {
     // Following code will be executed for page with data-page attribute equal to "about"
     // myApp.alert('Here comes About page');
 })
+
+$$(document).on('pageInit', '.page[data-page="confluence_embed"]', function (e) {
+    // Following code will be executed for page with data-page attribute equal to "about"
+    // myApp.alert('Here comes About page');
+})
+
+$$(document).on('pageInit', '.page[data-page="give_us_feedback"]', function (e) {
+    // Following code will be executed for page with data-page attribute equal to "about"
+    // myApp.alert('Here comes About page');
+})
